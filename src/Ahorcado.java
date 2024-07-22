@@ -15,7 +15,7 @@ public class Ahorcado {
         // Arreglos:
         char[] letrasAdivinadas = new char[palabraSecreta.length()];
 
-        // Estamos viendo un blucle o una estructura de control
+        // Estamos viendo un blucle o una estructura de control // Estructura de control :interactiva (Bucle)
         for (int i = 0; i < letrasAdivinadas.length; i++) {
             letrasAdivinadas[i] = '_';
             System.out.println(letrasAdivinadas[i]);
